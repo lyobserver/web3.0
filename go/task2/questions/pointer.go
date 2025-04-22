@@ -5,7 +5,7 @@ func ModifyValue(p *int) {
 }
 
 func ModifySlice(s *[]int) {
-	for _, v := range *s { // 遍历切片中的每个元素
-		v *= 2 // 修改每个元素的值为10
+	for i := 0; i < len(*s); i++ {
+		(*s)[i] *= 2
 	}
 }

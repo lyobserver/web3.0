@@ -10,4 +10,7 @@ func main() {
 	questions.ModifyValue(&p)
 	fmt.Println("p的值为：", p)
 
+	var s []int = []int{1, 2, 3, 4, 5}
+	questions.ModifySlice(&s)
+	fmt.Println("s的值为：", s)
 }
