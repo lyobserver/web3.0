@@ -13,4 +13,7 @@ func main() {
 	var s []int = []int{1, 2, 3, 4, 5}
 	questions.ModifySlice(&s)
 	fmt.Println("s的值为：", s)
+
+	questions.OddEvenRun()
+	questions.SchedulerRun()
 }
